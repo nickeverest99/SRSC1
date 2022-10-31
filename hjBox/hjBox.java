@@ -31,16 +31,6 @@ import configs.Config;
 
 class hjBox {
     
-     private static final String ALGORITHM = "AES";
-     private static final String TRANSFORMATION = "AES/OFB/NoPadding";
-     private static final String KEY = "b356198719e456a6";
-     private static final byte[] ivBytes  = new byte[]
-     {
-	0x07, 0x06, 0x05, 0x04, 0x03, 0x02, 0x01, 0x00 ,
-        0x0f, 0x0d, 0x0e, 0x0c, 0x0b, 0x0a, 0x09, 0x08 
-     };
-    
-    
     private static InetSocketAddress parseSocketAddress(String socketAddress) 
     {
         String[] split = socketAddress.split(":");

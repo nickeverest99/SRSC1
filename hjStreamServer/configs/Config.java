@@ -22,7 +22,6 @@ public class Config{
 		Properties properties = new Properties();
 		properties.load(inputStream);
 		
-		//String remote = properties.getProperty("remote");
 		cipherSuite = properties.getProperty("ciphersuite");
 		key = properties.getProperty("key");
 		iv = properties.getProperty("iv");
